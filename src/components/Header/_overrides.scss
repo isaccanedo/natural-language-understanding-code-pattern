@@ -1,0 +1,11 @@
+@use '@carbon/react/scss/colors' as *;
+
+.cds--link {
+  &:focus {
+    outline: none;
+  }
+
+  &:visited {
+    color: $blue-40;
+  }
+}

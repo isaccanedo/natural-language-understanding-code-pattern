@@ -1,0 +1,39 @@
+@use '@carbon/react/scss/theme' as *;
+@use '@carbon/react/scss/spacing' as *;
+
+.cds--dropdown.cds--list-box {
+  background-color: $layer-02;
+
+  .cds--list-box__menu {
+    background-color: $layer-02;
+  }
+
+  .cds--list-box__field {
+    background-color: $layer-02;
+    border-bottom: 1px solid $border-strong-01;
+  }
+
+  .cds--list-box__field:hover {
+    background-color: $field-hover;
+  }
+
+  .cds--list-box__menu-item.cds--list-box__menu-item--highlighted {
+    background-color: $layer-accent-01;
+  }
+}
+
+.cds--fieldset {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  padding-bottom: $spacing-03;
+  margin-bottom: $spacing-07;
+}
+
+.cds--text-area__wrapper {
+  width: 100%;
+}
+
+.cds--content-switcher-btn {
+  background-color: $background;
+}
